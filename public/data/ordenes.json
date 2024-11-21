@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1",
+    "fecha": "2023-07-07",
+    "estado": "Enviado",
+    "direccionEnvio": "Jiron Huiracocha 2081 Departamento 922\nJesús María, Lima\nLima\nPerú",
+    "metodoPago": "Pago con tarjeta de crédito",
+    "terminaEn": "8859",
+    "metodoEnvio": "Envío prioritario (5 a 10 días) - S/ 17.00",
+    "productos": [
+      { "nombre": "Juego de Cartas Pokemon Masters League", "cantidad": 1, "precio": 50.00 },
+      { "nombre": "Juego de Cartas Magic The Gathering", "cantidad": 2, "precio": 50.00 }
+    ],
+    "subtotal": 100.00,
+    "envio": 17.00,
+    "impuestos": 18.00,
+    "total": 135.00
+  },
+  {
+    "id": "2",
+    "fecha": "2023-07-08",
+    "estado": "Pendiente",
+    "direccionEnvio": "Av. Los Rosales 1234\nSan Isidro, Lima\nLima\nPerú",
+    "metodoPago": "Pago con código QR",
+    "terminaEn": "",
+    "metodoEnvio": "Económico Aéreo - S/ 10.00",
+    "productos": [
+      { "nombre": "Figura de Acción Dragon Ball Z", "cantidad": 1, "precio": 120.00 },
+      { "nombre": "Poster de Naruto", "cantidad": 3, "precio": 30.00 }
+    ],
+    "subtotal": 210.00,
+    "envio": 10.00,
+    "impuestos": 37.80,
+    "total": 257.80
+  },
+  {
+    "id": "3",
+    "fecha": "2023-07-09",
+    "estado": "En proceso",
+    "direccionEnvio": "Calle Las Flores 5678\nMiraflores, Lima\nLima\nPerú",
+    "metodoPago": "Pago con tarjeta de crédito",
+    "terminaEn": "1234",
+    "metodoEnvio": "Envío prioritario (5 a 10 días) - S/ 17.00",
+    "productos": [
+      { "nombre": "Camiseta de One Piece", "cantidad": 2, "precio": 60.00 },
+      { "nombre": "Gorra de Attack on Titan", "cantidad": 1, "precio": 40.00 }
+    ],
+    "subtotal": 160.00,
+    "envio": 17.00,
+    "impuestos": 28.80,
+    "total": 205.80
+  },
+  {
+    "id": "4",
+    "fecha": "2023-07-10",
+    "estado": "Completado",
+    "direccionEnvio": "Jiron Amazonas 3456\nCercado de Lima, Lima\nLima\nPerú",
+    "metodoPago": "Pago con tarjeta de crédito",
+    "terminaEn": "5678",
+    "metodoEnvio": "Económico Aéreo - S/ 10.00",
+    "productos": [
+      { "nombre": "Manga One Punch Man Vol. 1", "cantidad": 1, "precio": 25.00 },
+      { "nombre": "Manga One Punch Man Vol. 2", "cantidad": 1, "precio": 25.00 },
+      { "nombre": "Manga One Punch Man Vol. 3", "cantidad": 1, "precio": 25.00 }
+    ],
+    "subtotal": 75.00,
+    "envio": 10.00,
+    "impuestos": 15.30,
+    "total": 100.30
+  },
+  {
+    "id": "5",
+    "fecha": "2023-07-11",
+    "estado": "Cancelado",
+    "direccionEnvio": "Av. Javier Prado Este 2345\nLa Molina, Lima\nLima\nPerú",
+    "metodoPago": "Pago con tarjeta de crédito",
+    "terminaEn": "4321",
+    "metodoEnvio": "Envío prioritario (5 a 10 días) - S/ 17.00",
+    "productos": [
+      { "nombre": "Llavero de My Hero Academia", "cantidad": 4, "precio": 15.00 },
+      { "nombre": "Poster de Fullmetal Alchemist", "cantidad": 1, "precio": 35.00 }
+    ],
+    "subtotal": 95.00,
+    "envio": 17.00,
+    "impuestos": 20.16,
+    "total": 132.16
+  }
+]

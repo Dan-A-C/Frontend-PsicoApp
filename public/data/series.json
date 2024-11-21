@@ -1,0 +1,75 @@
+{
+  "series": [
+    {
+      "name": "Serie 1",
+      "season": "1",
+      "image": "path/to/image1.jpg",
+      "description": "Descripción de la Serie 1",
+      "genre": ["Drama", "Acción"]
+    },
+    {
+      "name": "Serie 2",
+      "season": "2",
+      "image": "path/to/image2.jpg",
+      "description": "Descripción de la Serie 2",
+      "genre": ["Comedia"]
+    },
+    {
+      "name": "Serie 1",
+      "season": "1",
+      "image": "path/to/image1.jpg",
+      "description": "Descripción de la Serie 1",
+      "genre": ["Drama", "Acción"]
+    },
+    {
+      "name": "Serie 2",
+      "season": "2",
+      "image": "path/to/image2.jpg",
+      "description": "Descripción de la Serie 2",
+      "genre": ["Comedia"]
+    },
+    {
+      "name": "Serie 1",
+      "season": "1",
+      "image": "path/to/image1.jpg",
+      "description": "Descripción de la Serie 1",
+      "genre": ["Drama", "Acción"]
+    },
+    {
+      "name": "Serie 2",
+      "season": "2",
+      "image": "path/to/image2.jpg",
+      "description": "Descripción de la Serie 2",
+      "genre": ["Comedia"]
+    },
+    {
+      "name": "Serie 1",
+      "season": "1",
+      "image": "path/to/image1.jpg",
+      "description": "Descripción de la Serie 1",
+      "genre": ["Drama", "Acción"]
+    },
+    {
+      "name": "Serie 2",
+      "season": "2",
+      "image": "path/to/image2.jpg",
+      "description": "Descripción de la Serie 2",
+      "genre": ["Comedia"]
+    },
+    {
+      "name": "Serie 1",
+      "season": "1",
+      "image": "path/to/image1.jpg",
+      "description": "Descripción de la Serie 1",
+      "genre": ["Drama", "Acción"]
+    },
+    {
+      "name": "Serie 2",
+      "season": "2",
+      "image": "path/to/image2.jpg",
+      "description": "Descripción de la Serie 2",
+      "genre": ["Comedia"]
+    }
+    
+  ] 
+}

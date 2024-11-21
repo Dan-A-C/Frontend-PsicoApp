@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "nombre": "Antonio",
+    "apellido": "Lopez Caro",
+    "correo": "correo@sanchez.com",
+    "fechaRegistro": "2022-02-11",
+    "estado": "Activo",
+    "ordenes": [
+      {
+        "id": "1",
+        "fecha": "2023-03-11",
+        "total": 125.00,
+        "productos": 13,
+        "estado": "Pendiente"
+      },
+      {
+        "id": "2",
+        "fecha": "2023-03-11",
+        "total": 125.00,
+        "productos": 1,
+        "estado": "Por Enviar"
+      }
+    ]
+  },
+  {
+    "id": "12333",
+    "nombre": "Ana",
+    "apellido": "Sanchez",
+    "correo": "anita123@hotmail.com",
+    "fechaRegistro": "2022-02-11",
+    "estado": "Inactivo",
+    "ordenes": [
+      {
+        "id": "1",
+        "fecha": "2023-03-11",
+        "total": 125.00,
+        "productos": 4,
+        "estado": "Entregado"
+      }
+    ]
+  }
+  
+]

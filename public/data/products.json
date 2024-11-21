@@ -1,0 +1,1607 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Voltron Mini Action Voltron Vehicle Force Figure (Standard)",
+      "brand": "Bandai",
+      "series": "Voltron",
+      "price": 88.99,
+      "image": "https://placehold.co/600x400/png",
+      "description": "From the Voltron franchise comes a new Mini Action Voltron Vehicle Force figure by Action Toys. This figure is highly articulated and able to produce various poses from the series, along with being able to separate various parts to form vehicles. This Voltron Vehicle Force toy figure is sure to be a great addition to any Voltron collection!",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Voltron",
+        "Articulado",
+        "15 piezas distintas",
+        "Combinable con otras figuras"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Naruto Shippuden Uchiha Sasuke Figure",
+      "brand": "Bandai",
+      "series": "Naruto Shippuden",
+      "price": 45.99,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Sasuke Uchiha figure from Naruto Shippuden stands 16 cm tall and is made of PVC. The figure is highly detailed, capturing Sasuke's intense gaze and his signature outfit from the series.",
+      "features": [
+        "Mide 16 centimetros",
+        "Hecho de PVC",
+        "De la serie Naruto Shippuden",
+        "Altamente detallado",
+        "Captura la esencia del personaje"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dragon Ball Z Goku Super Saiyan Figure",
+      "brand": "Banpresto",
+      "series": "Dragon Ball Z",
+      "price": 60.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Super Saiyan Goku figure is a must-have for any Dragon Ball Z fan. Standing at 20 cm, it features Goku in his iconic Super Saiyan form, ready for battle.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Super Saiyan forma",
+        "Incluye base de soporte"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "One Piece Monkey D. Luffy Figure",
+      "brand": "Megahouse",
+      "series": "One Piece",
+      "price": 75.50,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Monkey D. Luffy figure from One Piece is part of the Portrait.Of.Pirates (P.O.P) series. Standing at 21 cm, it captures Luffy's adventurous spirit and iconic pose.",
+      "features": [
+        "Mide 21 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Parte de la serie P.O.P",
+        "Poses icónicas"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Attack on Titan Eren Yeager Figure",
+      "brand": "Good Smile Company",
+      "series": "Attack on Titan",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Eren Yeager from Attack on Titan is brought to life with this detailed figure. At 18 cm, Eren is depicted in his Survey Corps uniform, ready to take on any Titan.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Incluye accesorios de la Survey Corps",
+        "Figura detallada"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "My Hero Academia Izuku Midoriya Figure",
+      "brand": "Kotobukiya",
+      "series": "My Hero Academia",
+      "price": 70.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This figure of Izuku Midoriya, also known as Deku, from My Hero Academia stands at 19 cm. It features Deku in his hero costume, ready to take on any challenge.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie My Hero Academia",
+        "Traje de héroe",
+        "Base incluida"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Sword Art Online Kirito Figure",
+      "brand": "Aniplex",
+      "series": "Sword Art Online",
+      "price": 95.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Kirito from Sword Art Online is depicted in this stunning figure. Standing at 22 cm, Kirito is shown in his signature black outfit, wielding his swords.",
+      "features": [
+        "Mide 22 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Incluye espadas",
+        "Alta calidad de detalles"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Fairy Tail Natsu Dragneel Figure",
+      "brand": "SEGA",
+      "series": "Fairy Tail",
+      "price": 55.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Natsu Dragneel figure from Fairy Tail is highly detailed and captures Natsu's fiery personality. Standing at 18 cm, it includes his iconic scarf and fire effects.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Fairy Tail",
+        "Incluye efectos de fuego",
+        "Bufanda icónica"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Bleach Ichigo Kurosaki Figure",
+      "brand": "Alpha x Omega",
+      "series": "Bleach",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Ichigo Kurosaki figure from Bleach stands at 20 cm and features Ichigo in his Soul Reaper uniform, ready to battle with his Zanpakuto.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Bleach",
+        "Uniforme de Soul Reaper",
+        "Incluye Zanpakuto"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Death Note Light Yagami Figure",
+      "brand": "Medicom Toy",
+      "series": "Death Note",
+      "price": 65.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Light Yagami from Death Note is captured in this detailed figure. Standing at 17 cm, Light is depicted holding the Death Note, with a confident expression.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Death Note",
+        "Incluye Death Note",
+        "Expresión confiada"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Fullmetal Alchemist Edward Elric Figure",
+      "brand": "Square Enix",
+      "series": "Fullmetal Alchemist",
+      "price": 90.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Edward Elric from Fullmetal Alchemist is featured in this highly detailed figure. Standing at 18 cm, Edward is shown with his automail arm and determined expression.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Fullmetal Alchemist",
+        "Incluye brazo automail",
+        "Expresión determinada"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Neon Genesis Evangelion Asuka Langley Figure",
+      "brand": "Kaiyodo",
+      "series": "Neon Genesis Evangelion",
+      "price": 77.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Asuka Langley figure from Neon Genesis Evangelion stands at 19 cm and features Asuka in her iconic red plugsuit, ready for action.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Neon Genesis Evangelion",
+        "Traje rojo icónico",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "One Piece Roronoa Zoro Figure",
+      "brand": "Megahouse",
+      "series": "One Piece",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "This Roronoa Zoro figure from One Piece is part of the Portrait.Of.Pirates (P.O.P) series. Standing at 22 cm, it captures Zoro's fierce determination and iconic pose.",
+
+
+      "features": [
+        "Mide 22 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Parte de la serie P.O.P",
+        "Poses icónicas"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Re:Zero Rem Figure",
+      "brand": "Good Smile Company",
+      "series": "Re:Zero",
+      "price": 72.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Rem from Re:Zero is depicted in this beautifully detailed figure. Standing at 18 cm, Rem is shown in her maid outfit, ready to serve.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Re:Zero",
+        "Traje de sirvienta",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Demon Slayer Tanjiro Kamado Figure",
+      "brand": "Banpresto",
+      "series": "Demon Slayer",
+      "price": 68.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Tanjiro Kamado from Demon Slayer is captured in this dynamic figure. Standing at 18 cm, Tanjiro is shown wielding his sword in a battle-ready pose.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Demon Slayer",
+        "Pose dinámica",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Black Clover Asta Figure",
+      "brand": "Banpresto",
+      "series": "Black Clover",
+      "price": 65.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Asta de Black Clover mide 18 cm y presenta a Asta en una pose dinámica, empuñando su espada y listo para la acción.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Black Clover",
+        "Pose dinámica",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Tokyo Ghoul Ken Kaneki Figure",
+      "brand": "Kotobukiya",
+      "series": "Tokyo Ghoul",
+      "price": 78.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ken Kaneki de Tokyo Ghoul mide 20 cm y captura a Kaneki en su forma ghoul, con su máscara y kagune desplegado.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Tokyo Ghoul",
+        "Incluye máscara y kagune",
+        "Detalles detallados"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Sword Art Online Asuna Figure",
+      "brand": "Aniplex",
+      "series": "Sword Art Online",
+      "price": 92.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Asuna de Sword Art Online mide 22 cm y muestra a Asuna en su icónico traje de caballero, lista para el combate.",
+      "features": [
+        "Mide 22 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Traje de caballero",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Hunter x Hunter Gon Freecss Figure",
+      "brand": "Megahouse",
+      "series": "Hunter x Hunter",
+      "price": 75.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Gon Freecss de Hunter x Hunter mide 18 cm y captura a Gon en una pose de batalla, listo para usar su poder Nen.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Hunter x Hunter",
+        "Pose de batalla",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "JoJo's Bizarre Adventure Jotaro Kujo Figure",
+      "brand": "Medicos Entertainment",
+      "series": "JoJo's Bizarre Adventure",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Jotaro Kujo de JoJo's Bizarre Adventure mide 23 cm y presenta a Jotaro en su icónica pose, con su uniforme de estudiante.",
+      "features": [
+        "Mide 23 centimetros",
+        "Hecho de PVC",
+        "De la serie JoJo's Bizarre Adventure",
+        "Uniforme de estudiante",
+        "Pose icónica"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Mob Psycho 100 Shigeo Kageyama Figure",
+      "brand": "Good Smile Company",
+      "series": "Mob Psycho 100",
+      "price": 68.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Shigeo Kageyama de Mob Psycho 100 mide 17 cm y captura a Mob en una pose de concentración, listo para liberar su poder psíquico.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Mob Psycho 100",
+        "Pose de concentración",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Fire Force Shinra Kusakabe Figure",
+      "brand": "Banpresto",
+      "series": "Fire Force",
+      "price": 64.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Shinra Kusakabe de Fire Force mide 18 cm y presenta a Shinra en su uniforme de bombero, con efectos de fuego en los pies.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Fire Force",
+        "Uniforme de bombero",
+        "Efectos de fuego"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "The Seven Deadly Sins Meliodas Figure",
+      "brand": "Kotobukiya",
+      "series": "The Seven Deadly Sins",
+      "price": 77.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Meliodas de The Seven Deadly Sins mide 20 cm y captura a Meliodas en una pose dinámica, listo para usar su espada.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie The Seven Deadly Sins",
+        "Pose dinámica",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Blue Exorcist Rin Okumura Figure",
+      "brand": "Aniplex",
+      "series": "Blue Exorcist",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rin Okumura de Blue Exorcist mide 18 cm y muestra a Rin en su uniforme de exorcista, con su espada demoníaca y efectos de fuego azul.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Blue Exorcist",
+        "Uniforme de exorcista",
+        "Efectos de fuego azul"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "One Punch Man Saitama Figure",
+      "brand": "Good Smile Company",
+      "series": "One Punch Man",
+      "price": 70.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Saitama de One Punch Man mide 18 cm y captura a Saitama en su icónico traje de héroe, con su puño preparado para un golpe.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie One Punch Man",
+        "Traje de héroe",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Attack on Titan Levi Ackerman Figure",
+      "brand": "Good Smile Company",
+      "series": "Attack on Titan",
+      "price": 82.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Levi Ackerman de Attack on Titan mide 21 cm y muestra a Levi en una pose de combate, empuñando sus espadas dobles.",
+      "features": [
+        "Mide 21 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Pose de combate",
+        "Incluye espadas dobles"
+      ]
+    },
+    {
+      "id": "27",
+      "name": "My Hero Academia Shoto Todoroki Figure",
+      "brand": "Banpresto",
+      "series": "My Hero Academia",
+      "price": 69.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Shoto Todoroki de My Hero Academia mide 19 cm y captura a Shoto en su uniforme de héroe, usando sus poderes de fuego y hielo.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie My Hero Academia",
+        "Uniforme de héroe",
+        "Efectos de fuego y hielo"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Demon Slayer Inosuke Hashibira Figure",
+      "brand": "SEGA",
+      "series": "Demon Slayer",
+      "price": 65.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Inosuke Hashibira de Demon Slayer mide 18 cm y muestra a Inosuke en una pose dinámica, empuñando sus espadas dobles.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Demon Slayer",
+        "Pose dinámica",
+        "Incluye espadas dobles"
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Re:Zero Rem Figure",
+      "brand": "Kotobukiya",
+      "series": "Re:Zero",
+      "price": 78.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rem de Re:Zero mide 17 cm y captura a Rem en su uniforme de sirvienta, con una expresión dulce y un gran nivel de detalle.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Re:Zero",
+        "Uniforme de sirvienta",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Naruto Gaara Figure",
+      "brand": "Megahouse",
+      "series": "Naruto",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Gaara de Naruto mide 20 cm y presenta a Gaara en una pose de batalla, con su calabaza de arena y detalles intrincados.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Naruto",
+        "Pose de batalla",
+        "Incluye calabaza de arena"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Death Note L Figure",
+      "brand": "Good Smile Company",
+      "series": "Death Note",
+      "price": 70.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de L de Death Note mide 15 cm y captura a L en su característica posición de sentarse, con una expresión pensativa.",
+      "features": [
+        "Mide 15 centimetros",
+        "Hecho de PVC",
+        "De la serie Death Note",
+        "Posición característica",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Dragon Ball Z Piccolo Figure",
+      "brand": "Banpresto",
+      "series": "Dragon Ball Z",
+      "price": 66.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Piccolo de Dragon Ball Z mide 20 cm y muestra a Piccolo en una pose de combate, listo para lanzar un ataque.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Pose de combate",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "33",
+      "name": "One Piece Sanji Figure",
+      "brand": "SEGA",
+      "series": "One Piece",
+      "price": 72.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Sanji de One Piece mide 18 cm y captura a Sanji en una pose dinámica, con su pierna en alto y listo para una patada.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Pose dinámica",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Fullmetal Alchemist Edward Elric Figure",
+      "brand": "Kotobukiya",
+      "series": "Fullmetal Alchemist",
+      "price": 88.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Edward Elric de Fullmetal Alchemist mide 19 cm y muestra a Edward en una pose de acción, con su automail y capa roja.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fullmetal Alchemist",
+        "Pose de acción",
+        "Incluye automail y capa roja"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Neon Genesis Evangelion Rei Ayanami Figure",
+      "brand": "Good Smile Company",
+      "series": "Neon Genesis Evangelion",
+      "price": 90.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rei Ayanami de Neon Genesis Evangelion mide 18 cm y captura a Rei en su plug suit, con una expresión tranquila y detallada.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Neon Genesis Evangelion",
+        "Plug suit",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Fate/Stay Night Saber Figure",
+      "brand": "Aniplex",
+      "series": "Fate/Stay Night",
+      "price": 95.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Saber de Fate/Stay Night mide 20 cm y muestra a Saber en una pose de combate, con su armadura y espada Excalibur.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Fate/Stay Night",
+        "Armadura detallada",
+        "Incluye espada Excalibur"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "One Piece Nico Robin Figure",
+      "brand": "Banpresto",
+      "series": "One Piece",
+      "price": 74.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Nico Robin de One Piece mide 17 cm y captura a Robin en su icónico traje de arqueóloga, con una expresión confiada.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Traje de arqueóloga",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Sword Art Online Kirito Figure",
+      "brand": "Good Smile Company",
+      "series": "Sword Art Online",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Kirito de Sword Art Online mide 20 cm y muestra a Kirito en una pose de batalla, empuñando sus espadas duales.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Pose de batalla",
+        "Incluye espadas duales"
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Dragon Ball Z Bulma Figure",
+      "brand": "Megahouse",
+      "series": "Dragon Ball Z",
+      "price": 68.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Bulma de Dragon Ball Z mide 16 cm y captura a Bulma en su icónico atuendo de aventurera, con un alto nivel de detalle.",
+      "features": [
+        "Mide 16 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Atuendo de aventurera",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Bleach Rukia Kuchiki Figure",
+      "brand": "Kotobukiya",
+      "series": "Bleach",
+      "price": 79.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rukia Kuchiki de Bleach mide 18 cm y muestra a Rukia en una pose de combate, con su uniforme de shinigami y zanpakuto.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Bleach",
+        "Uniforme de shinigami",
+        "Incluye zanpakuto"
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Fairy Tail Natsu Dragneel Figure",
+      "brand": "Good Smile Company",
+      "series": "Fairy Tail",
+      "price": 83.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Natsu Dragneel de Fairy Tail mide 19 cm y captura a Natsu en una pose de combate, con efectos de fuego en sus manos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fairy Tail",
+        "Pose de combate",
+        "Efectos de fuego"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Tokyo Ghoul Touka Kirishima Figure",
+      "brand": "Banpresto",
+      "series": "Tokyo Ghoul",
+      "price": 71.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Touka Kirishima de Tokyo Ghoul mide 17 cm y muestra a Touka en su uniforme de Anteiku, con su kagune desplegado.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Tokyo Ghoul",
+        "Uniforme de Anteiku",
+        "Incluye kagune"
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Attack on Titan Eren Yeager Figure",
+      "brand": "Kotobukiya",
+      "series": "Attack on Titan",
+      "price": 88.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Eren Yeager de Attack on Titan mide 21 cm y captura a Eren en su uniforme de la Legión de Reconocimiento, listo para la acción.",
+      "features": [
+        "Mide 21 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Uniforme de la Legión de Reconocimiento",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "44",
+      "name": "My Hero Academia Katsuki Bakugo Figure",
+      "brand": "SEGA",
+      "series": "My Hero Academia",
+      "price": 75.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Katsuki Bakugo de My Hero Academia mide 19 cm y muestra a Bakugo en una pose de ataque, con sus explosiones características.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie My Hero Academia",
+        "Pose de ataque",
+        "Incluye efectos de explosión"
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Demon Slayer Nezuko Kamado Figure",
+      "brand": "Good Smile Company",
+      "series": "Demon Slayer",
+      "price": 72.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Nezuko Kamado de Demon Slayer mide 18 cm y captura a Nezuko en una pose de carrera, con su bambú en la boca y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Demon Slayer",
+        "Pose de carrera",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Re:Zero Emilia Figure",
+      "brand": "Aniplex",
+      "series": "Re:Zero",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Emilia de Re:Zero mide 19 cm y muestra a Emilia en su traje de hechicera, con una expresión serena y detalles delicados.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Re:Zero",
+        "Traje de hechicera",
+        "Detalles delicados"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Naruto Sasuke Uchiha Figure",
+      "brand": "Kotobukiya",
+      "series": "Naruto",
+      "price": 79.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Sasuke Uchiha de Naruto mide 20 cm y captura a Sasuke en una pose de combate, con su espada y detalles precisos.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Naruto",
+        "Pose de combate",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Death Note Light Yagami Figure",
+      "brand": "Good Smile Company",
+      "series": "Death Note",
+      "price": 70.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Light Yagami de Death Note mide 17 cm y muestra a Light en una pose confiada, con la Death Note en su mano.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Death Note",
+        "Pose confiada",
+        "Incluye Death Note"
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Dragon Ball Z Vegeta Figure",
+      "brand": "Banpresto",
+      "series": "Dragon Ball Z",
+      "price": 77.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Vegeta de Dragon Ball Z mide 20 cm y captura a Vegeta en una pose de combate, con su armadura Saiyan y detalles precisos.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Armadura Saiyan",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "50",
+      "name": "One Piece Zoro Roronoa Figure",
+      "brand": "SEGA",
+      "series": "One Piece",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Zoro Roronoa de One Piece mide 19 cm y muestra a Zoro en una pose de batalla, empuñando sus tres espadas.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Pose de batalla",
+        "Incluye tres espadas"
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Fullmetal Alchemist Alphonse Elric Figure",
+      "brand": "Good Smile Company",
+      "series": "Fullmetal Alchemist",
+      "price": 90.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Alphonse Elric de Fullmetal Alchemist mide 22 cm y captura a Alphonse en su armadura, con un alto nivel de detalle y precisión.",
+      "features": [
+        "Mide 22 centimetros",
+        "Hecho de PVC",
+        "De la serie Fullmetal Alchemist",
+        "Armadura detallada",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Neon Genesis Evangelion Asuka Langley Figure",
+      "brand": "Kotobukiya",
+      "series": "Neon Genesis Evangelion",
+      "price": 87.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Asuka Langley de Neon Genesis Evangelion mide 18 cm y muestra a Asuka en su plug suit, con una expresión decidida y detallada.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Neon Genesis Evangelion",
+        "Plug suit",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Fate/Stay Night Rin Tohsaka Figure",
+      "brand": "Aniplex",
+      "series": "Fate/Stay Night",
+      "price": 92.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rin Tohsaka de Fate/Stay Night mide 19 cm y captura a Rin en una pose de combate, con su traje de hechicera y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fate/Stay Night",
+        "Traje de hechicera",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "54",
+      "name": "One Piece Franky Figure",
+      "brand": "Banpresto",
+      "series": "One Piece",
+      "price": 78.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Franky de One Piece mide 21 cm y muestra a Franky en una pose de batalla, con sus brazos de cyborg listos para la acción.",
+      "features": [
+        "Mide 21 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Pose de batalla",
+        "Incluye brazos de cyborg"
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Sword Art Online Asuna Figure",
+      "brand": "Good Smile Company",
+      "series": "Sword Art Online",
+      "price": 86.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Asuna de Sword Art Online mide 18 cm y muestra a Asuna en una pose de batalla, empuñando su espada Lambent Light.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Pose de batalla",
+        "Incluye espada Lambent Light"
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Dragon Ball Z Trunks Figure",
+      "brand": "Megahouse",
+      "series": "Dragon Ball Z",
+      "price": 76.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Trunks de Dragon Ball Z mide 19 cm y captura a Trunks en una pose de combate, con su espada y detalles precisos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Pose de combate",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Bleach Ichigo Kurosaki Figure",
+      "brand": "Banpresto",
+      "series": "Bleach",
+      "price": 82.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ichigo Kurosaki de Bleach mide 20 cm y muestra a Ichigo en una pose de batalla, con su zanpakuto y detalles finos.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Bleach",
+        "Pose de batalla",
+        "Incluye zanpakuto"
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Fairy Tail Erza Scarlet Figure",
+      "brand": "Good Smile Company",
+      "series": "Fairy Tail",
+      "price": 84.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Erza Scarlet de Fairy Tail mide 18 cm y muestra a Erza en su armadura de batalla, con un alto nivel de detalle y precisión.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Fairy Tail",
+        "Armadura detallada",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Tokyo Ghoul Ken Kaneki Figure",
+      "brand": "SEGA",
+      "series": "Tokyo Ghoul",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ken Kaneki de Tokyo Ghoul mide 19 cm y captura a Kaneki en una pose de combate, con su kagune desplegado y detalles precisos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Tokyo Ghoul",
+        "Pose de combate",
+        "Incluye kagune"
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Attack on Titan Mikasa Ackerman Figure",
+      "brand": "Kotobukiya",
+      "series": "Attack on Titan",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Mikasa Ackerman de Attack on Titan mide 20 cm y muestra a Mikasa en una pose de combate, con sus espadas dobles y equipo de maniobras tridimensionales.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Pose de combate",
+        "Incluye espadas dobles y equipo de maniobras tridimensionales"
+      ]
+    },
+    {
+      "id": "61",
+      "name": "My Hero Academia Ochaco Uraraka Figure",
+      "brand": "Good Smile Company",
+      "series": "My Hero Academia",
+      "price": 77.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ochaco Uraraka de My Hero Academia mide 18 cm y muestra a Ochaco en su uniforme de héroe, con una expresión alegre y dinámica.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie My Hero Academia",
+        "Uniforme de héroe",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Demon Slayer Zenitsu Agatsuma Figure",
+      "brand": "Aniplex",
+      "series": "Demon Slayer",
+      "price": 74.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Zenitsu Agatsuma de Demon Slayer mide 17 cm y captura a Zenitsu en una pose de combate, con su espada y detalles precisos.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Demon Slayer",
+        "Pose de combate",
+        "Incluye espada"
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Re:Zero Ram Figure",
+      "brand": "Good Smile Company",
+      "series": "Re:Zero",
+      "price": 72.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ram de Re:Zero mide 17 cm y muestra a Ram en su uniforme de sirvienta, con una expresión decidida y detalles precisos.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Re:Zero",
+        "Uniforme de sirvienta",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Naruto Kakashi Hatake Figure",
+      "brand": "Banpresto",
+      "series": "Naruto",
+      "price": 81.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Kakashi Hatake de Naruto mide 20 cm y muestra a Kakashi en una pose de combate, con su sharingan y detalles precisos.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Naruto",
+        "Pose de combate",
+        "Incluye sharingan"
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Death Note Misa Amane Figure",
+      "brand": "Kotobukiya",
+      "series": "Death Note",
+      "price": 75.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Misa Amane de Death Note mide 16 cm y captura a Misa en su icónico atuendo gótico, con detalles precisos y expresión alegre.",
+      "features": [
+        "Mide 16 centimetros",
+        "Hecho de PVC",
+        "De la serie Death Note",
+        "Atuendo gótico",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Dragon Ball Z Frieza Figure",
+      "brand": "Good Smile Company",
+      "series": "Dragon Ball Z",
+      "price": 78.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Frieza de Dragon Ball Z mide 18 cm y captura a Frieza en su forma final, con detalles precisos y expresión malvada.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Forma final",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "67",
+      "name": "One Piece Nico Robin Figure",
+      "brand": "Banpresto",
+      "series": "One Piece",
+      "price": 82.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Nico Robin de One Piece mide 18 cm y muestra a Robin en una pose de batalla, con su icónico atuendo y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Pose de batalla",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Fullmetal Alchemist Edward Elric Figure",
+      "brand": "SEGA",
+      "series": "Fullmetal Alchemist",
+      "price": 83.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Edward Elric de Fullmetal Alchemist mide 19 cm y captura a Edward en una pose de combate, con su brazo automail y detalles precisos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fullmetal Alchemist",
+        "Brazo automail",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Neon Genesis Evangelion Rei Ayanami Figure",
+      "brand": "Kotobukiya",
+      "series": "Neon Genesis Evangelion",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rei Ayanami de Neon Genesis Evangelion mide 17 cm y muestra a Rei en su plug suit, con una expresión serena y detalles precisos.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Neon Genesis Evangelion",
+        "Plug suit",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Fate/Stay Night Saber Figure",
+      "brand": "Good Smile Company",
+      "series": "Fate/Stay Night",
+      "price": 90.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Saber de Fate/Stay Night mide 18 cm y captura a Saber en una pose de combate, con su armadura y espada Excalibur.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Fate/Stay Night",
+        "Armadura detallada",
+        "Incluye espada Excalibur"
+      ]
+    },
+    {
+      "id": "71",
+      "name": "One Piece Sanji Figure",
+      "brand": "Aniplex",
+      "series": "One Piece",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Sanji de One Piece mide 19 cm y muestra a Sanji en una pose de combate, con su traje característico y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Traje característico",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Sword Art Online Kirito Figure",
+      "brand": "Kotobukiya",
+      "series": "Sword Art Online",
+      "price": 87.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Kirito de Sword Art Online mide 18 cm y captura a Kirito en una pose de batalla, empuñando sus espadas Elucidator y Dark Repulser.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Pose de batalla",
+        "Incluye espadas Elucidator y Dark Repulser"
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Dragon Ball Z Piccolo Figure",
+      "brand": "Banpresto",
+      "series": "Dragon Ball Z",
+      "price": 75.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Piccolo de Dragon Ball Z mide 20 cm y muestra a Piccolo en una pose de combate, con su capa y turbante, y detalles precisos.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Incluye capa y turbante",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "74",
+      "name": "Bleach Byakuya Kuchiki Figure",
+      "brand": "Good Smile Company",
+      "series": "Bleach",
+      "price": 79.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Byakuya Kuchiki de Bleach mide 18 cm y captura a Byakuya en una pose de combate, con su zanpakuto y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Bleach",
+        "Incluye zanpakuto",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Fairy Tail Gray Fullbuster Figure",
+      "brand": "SEGA",
+      "series": "Fairy Tail",
+      "price": 82.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Gray Fullbuster de Fairy Tail mide 19 cm y muestra a Gray en una pose de combate, con su magia de hielo y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fairy Tail",
+        "Incluye magia de hielo",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Tokyo Ghoul Ayato Kirishima Figure",
+      "brand": "Aniplex",
+      "series": "Tokyo Ghoul",
+      "price": 76.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ayato Kirishima de Tokyo Ghoul mide 18 cm y captura a Ayato en una pose de combate, con su kagune desplegado y detalles finos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Tokyo Ghoul",
+        "Incluye kagune",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Attack on Titan Armin Arlert Figure",
+      "brand": "Good Smile Company",
+      "series": "Attack on Titan",
+      "price": 88.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Armin Arlert de Attack on Titan mide 18 cm y muestra a Armin en una pose de batalla, con su equipo de maniobras tridimensionales.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Incluye equipo de maniobras tridimensionales",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "78",
+      "name": "My Hero Academia Shoto Todoroki Figure",
+      "brand": "Kotobukiya",
+      "series": "My Hero Academia",
+      "price": 79.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Shoto Todoroki de My Hero Academia mide 19 cm y muestra a Shoto en una pose de combate, con sus poderes de hielo y fuego en acción.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie My Hero Academia",
+        "Incluye efectos de hielo y fuego",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Demon Slayer Giyu Tomioka Figure",
+      "brand": "Banpresto",
+      "series": "Demon Slayer",
+      "price": 74.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Giyu Tomioka de Demon Slayer mide 18 cm y captura a Giyu en una pose de combate, con su espada y detalles finos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Demon Slayer",
+        "Incluye espada",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Re:Zero Subaru Natsuki Figure",
+      "brand": "Good Smile Company",
+      "series": "Re:Zero",
+      "price": 72.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Subaru Natsuki de Re:Zero mide 18 cm y muestra a Subaru en una pose decidida, con su uniforme característico y detalles finos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Re:Zero",
+        "Uniforme característico",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Naruto Hinata Hyuga Figure",
+      "brand": "SEGA",
+      "series": "Naruto",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Hinata Hyuga de Naruto mide 18 cm y captura a Hinata en una pose de combate, con su Byakugan activado y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Naruto",
+        "Incluye Byakugan",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Death Note Light Yagami Figure",
+      "brand": "Banpresto",
+      "series": "Death Note",
+      "price": 76.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Light Yagami de Death Note mide 19 cm y muestra a Light con su icónico traje escolar, sosteniendo la Death Note con detalles precisos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Death Note",
+        "Incluye Death Note",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Dragon Ball Z Vegeta Figure",
+      "brand": "Good Smile Company",
+      "series": "Dragon Ball Z",
+      "price": 88.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Vegeta de Dragon Ball Z mide 18 cm y captura a Vegeta en una pose de combate, con su armadura Saiyan y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Incluye armadura Saiyan",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "84",
+      "name": "One Piece Roronoa Zoro Figure",
+      "brand": "Kotobukiya",
+      "series": "One Piece",
+      "price": 84.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Roronoa Zoro de One Piece mide 19 cm y muestra a Zoro en una pose de combate, con sus tres espadas y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Incluye tres espadas",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Sword Art Online Sinon Figure",
+      "brand": "Aniplex",
+      "series": "Sword Art Online",
+      "price": 90.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Sinon de Sword Art Online mide 18 cm y captura a Sinon en una pose de combate, con su rifle de francotirador y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Incluye rifle de francotirador",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Fairy Tail Natsu Dragneel Figure",
+      "brand": "Banpresto",
+      "series": "Fairy Tail",
+      "price": 81.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Natsu Dragneel de Fairy Tail mide 19 cm y muestra a Natsu en una pose de combate, con sus llamas de dragón y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fairy Tail",
+        "Incluye llamas de dragón",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Tokyo Ghoul Touka Kirishima Figure",
+      "brand": "Good Smile Company",
+      "series": "Tokyo Ghoul",
+      "price": 77.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Touka Kirishima de Tokyo Ghoul mide 18 cm y captura a Touka en una pose de combate, con su kagune desplegado y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Tokyo Ghoul",
+        "Incluye kagune",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "88",
+      "name": "Attack on Titan Levi Ackerman Figure",
+      "brand": "SEGA",
+      "series": "Attack on Titan",
+      "price": 89.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Levi Ackerman de Attack on Titan mide 18 cm y muestra a Levi en una pose de combate, con sus espadas dobles y equipo de maniobras tridimensionales.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Incluye espadas dobles y equipo de maniobras tridimensionales",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "89",
+      "name": "My Hero Academia All Might Figure",
+      "brand": "Kotobukiya",
+      "series": "My Hero Academia",
+      "price": 92.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de All Might de My Hero Academia mide 20 cm y captura a All Might en una pose heroica, con su traje característico y detalles finos.",
+      "features": [
+        "Mide 20 centimetros",
+        "Hecho de PVC",
+        "De la serie My Hero Academia",
+        "Traje característico",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "90",
+      "name": "Demon Slayer Nezuko Kamado Figure",
+      "brand": "Aniplex",
+      "series": "Demon Slayer",
+      "price": 75.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Nezuko Kamado de Demon Slayer mide 17 cm y muestra a Nezuko en una pose de combate, con su kimono y detalles precisos.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Demon Slayer",
+        "Incluye kimono",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Re:Zero Rem Figure",
+      "brand": "Good Smile Company",
+      "series": "Re:Zero",
+      "price": 78.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Rem de Re:Zero mide 17 cm y muestra a Rem en su uniforme de sirvienta, con una expresión decidida y detalles finos.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Re:Zero",
+        "Uniforme de sirvienta",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "92",
+      "name": "Naruto Sakura Haruno Figure",
+      "brand": "Banpresto",
+      "series": "Naruto",
+      "price": 80.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Sakura Haruno de Naruto mide 18 cm y captura a Sakura en una pose de combate, con su guante de combate y detalles finos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Naruto",
+        "Incluye guante de combate",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Death Note L Figure",
+      "brand": "Good Smile Company",
+      "series": "Death Note",
+      "price": 85.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de L de Death Note mide 17 cm y muestra a L en su icónica pose, con su traje característico y detalles finos.",
+      "features": [
+        "Mide 17 centimetros",
+        "Hecho de PVC",
+        "De la serie Death Note",
+        "Incluye traje característico",
+        "Detalles precisos"
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Dragon Ball Z Trunks Figure",
+      "brand": "SEGA",
+      "series": "Dragon Ball Z",
+      "price": 87.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Trunks de Dragon Ball Z mide 19 cm y muestra a Trunks en una pose de combate, con su espada y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Dragon Ball Z",
+        "Incluye espada",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "95",
+      "name": "One Piece Usopp Figure",
+      "brand": "Banpresto",
+      "series": "One Piece",
+      "price": 78.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Usopp de One Piece mide 18 cm y captura a Usopp en una pose de combate, con su honda y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie One Piece",
+        "Incluye honda",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "96",
+      "name": "Sword Art Online Asuna Figure",
+      "brand": "Good Smile Company",
+      "series": "Sword Art Online",
+      "price": 88.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Asuna de Sword Art Online mide 18 cm y muestra a Asuna en una pose de combate, con su espada Lambent Light y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Sword Art Online",
+        "Incluye espada Lambent Light",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Bleach Ichigo Kurosaki Figure",
+      "brand": "Kotobukiya",
+      "series": "Bleach",
+      "price": 82.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Ichigo Kurosaki de Bleach mide 18 cm y captura a Ichigo en una pose de combate, con su zanpakuto y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Bleach",
+        "Incluye zanpakuto",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "98",
+      "name": "Fairy Tail Erza Scarlet Figure",
+      "brand": "Aniplex",
+      "series": "Fairy Tail",
+      "price": 83.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Erza Scarlet de Fairy Tail mide 19 cm y muestra a Erza en una pose de combate, con su armadura y detalles finos.",
+      "features": [
+        "Mide 19 centimetros",
+        "Hecho de PVC",
+        "De la serie Fairy Tail",
+        "Incluye armadura",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "99",
+      "name": "Tokyo Ghoul Kaneki Ken Figure",
+      "brand": "Good Smile Company",
+      "series": "Tokyo Ghoul",
+      "price": 90.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Kaneki Ken de Tokyo Ghoul mide 18 cm y captura a Kaneki en una pose de combate, con su kagune desplegado y detalles precisos.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Tokyo Ghoul",
+        "Incluye kagune",
+        "Detalles finos"
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Attack on Titan Mikasa Ackerman Figure",
+      "brand": "SEGA",
+      "series": "Attack on Titan",
+      "price": 89.00,
+      "image": "https://placehold.co/600x400/png",
+      "description": "Esta figura de Mikasa Ackerman de Attack on Titan mide 18 cm y muestra a Mikasa en una pose de combate, con sus espadas dobles y equipo de maniobras tridimensionales.",
+      "features": [
+        "Mide 18 centimetros",
+        "Hecho de PVC",
+        "De la serie Attack on Titan",
+        "Incluye espadas dobles y equipo de maniobras tridimensionales",
+        "Detalles finos"
+      ]
+    }
+  ]
+}
