@@ -27,6 +27,8 @@ import ListaUsuarios from "./components/Alumno6/ListaUsuarios";
 import DetalleUsuarioAdmin from "./components/Alumno6/DetalleUsuarioAdmin";
 import ListadoOrdenesAdmin from "./components/Alumno6/ListadoOrdenesAdmin";
 import DetalleOrdenAdmin from "./components/Alumno6/DetalleOrdenAdmin";
+import Cuestionario from "./components/Cuestionario"
+import SolicitarCita from "./components/SolicitarCita"
 
 function App() {
   return (
@@ -60,6 +62,8 @@ function App() {
         <Route path="/ListadoOrdenesAdmin" element={ <ListadoOrdenesAdmin /> } />
         <Route path="/DetalleUsuarioAdmin/:id" element={ <DetalleUsuarioAdmin /> } />
         <Route path="/ListaUsuarios" element={ <ListaUsuarios /> } />
+        <Route path="/Cuestionario" element={ <Cuestionario /> } />
+        <Route path="/Solicitarcita" element={ <SolicitarCita /> } />
       
       </Routes>
     </div>
