@@ -1,101 +1,77 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const SolicitarCita = () => {
-  const [psicologos, setPsicologos] = useState([]);
-  const [cita, setCita] = useState({
-    psicologoId: '',
+const Cita = () => {
+  const [citas, setCitas] = useState([]);
+  const [nuevaCita, setNuevaCita] = useState({
     fecha: '',
     hora: '',
     motivo: '',
   });
-  const [mensaje, setMensaje] = useState('');
 
   useEffect(() => {
-    // Cargar la lista de psicólogos al montar el componente
-    const fetchPsicologos = async () => {
-      try {
-        const response = await axios.get('http://localhost:5000/psicologos');
-        setPsicologos(response.data);
-      } catch (err) {
-        console.error('Error al obtener los psicólogos:', err);
-      }
-    };
-
-    fetchPsicologos();
+    fetchCitas();
   }, []);
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setCita({ ...cita, [name]: value });
+  const fetchCitas = async () => {
+    try {
+      const response = await axios.get('/api/cita');
+      setCitas(response.data);
+    } catch (error) {
+      console.error('Error al obtener las citas:', error);
+    }
+  };
+
+  const handleChange = (e) => {
+    setNuevaCita({ ...nuevaCita, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/citas', cita);
-      setMensaje('Cita reservada exitosamente.');
-      setCita({ psicologoId: '', fecha: '', hora: '', motivo: '' });
-    } catch (err) {
-      console.error('Error al reservar la cita:', err);
-      setMensaje('Error al reservar la cita.');
+      await axios.post('/api/cita', nuevaCita);
+      fetchCitas();
+      setNuevaCita({ fecha: '', hora: '', motivo: '' });
+    } catch (error) {
+      console.error('Error al crear la cita:', error);
     }
   };
 
   return (
     <div>
-      <h2>Solicitar Cita</h2>
+      <h2>Gestión de Citas</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Psicólogo:</label>
-          <select
-            name="psicologoId"
-            value={cita.psicologoId}
-            onChange={handleInputChange}
-            required
-          >
-            <option value="">Seleccione un psicólogo</option>
-            {psicologos.map((psicologo) => (
-              <option key={psicologo.id} value={psicologo.id}>
-                {psicologo.nombre}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label>Fecha:</label>
-          <input
-            type="date"
-            name="fecha"
-            value={cita.fecha}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div>
-          <label>Hora:</label>
-          <input
-            type="time"
-            name="hora"
-            value={cita.hora}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div>
-          <label>Motivo:</label>
-          <textarea
-            name="motivo"
-            value={cita.motivo}
-            onChange={handleInputChange}
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Reservar Cita</button>
+        <input
+          type="date"
+          name="fecha"
+          value={nuevaCita.fecha}
+          onChange={handleChange}
+        />
+        <input
+          type="time"
+          name="hora"
+          value={nuevaCita.hora}
+          onChange={handleChange}
+        />
+        <textarea
+          name="motivo"
+          value={nuevaCita.motivo}
+          placeholder="Motivo"
+          onChange={handleChange}
+        />
+        <button type="submit">Crear Cita</button>
       </form>
-      {mensaje && <p>{mensaje}</p>}
+
+      <h3>Lista de Citas</h3>
+      <ul>
+        {citas.map((cita) => (
+          <li key={cita.id}>
+            {cita.fecha} - {cita.hora}: {cita.motivo}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
 
-export default SolicitarCita;
+export default Cita;

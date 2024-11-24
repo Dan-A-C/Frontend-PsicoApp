@@ -29,6 +29,10 @@ import ListadoOrdenesAdmin from "./components/Alumno6/ListadoOrdenesAdmin";
 import DetalleOrdenAdmin from "./components/Alumno6/DetalleOrdenAdmin";
 import Cuestionario from "./components/Cuestionario"
 import SolicitarCita from "./components/SolicitarCita"
+import Gestionarhorario from "./components/GestionarHorarios"
+import Reporte from "./components/reporte"
+import Versesiones from "./components/VerSesiones"
+import Rutina from "./components/Rutinas"
 
 function App() {
   return (
@@ -64,6 +68,10 @@ function App() {
         <Route path="/ListaUsuarios" element={ <ListaUsuarios /> } />
         <Route path="/Cuestionario" element={ <Cuestionario /> } />
         <Route path="/Solicitarcita" element={ <SolicitarCita /> } />
+        <Route path="/GestionarHorario" element={ <Gestionarhorario /> } />
+        <Route path="/Reporte" element={ <Reporte /> } />
+        <Route path="/Versesiones" element={ <Versesiones /> } />
+        <Route path="/rutina" element={ <Rutina /> } />
       
       </Routes>
     </div>
