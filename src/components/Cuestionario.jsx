@@ -1,76 +1,72 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Cuestionario = () => {
-  const [preguntas, setPreguntas] = useState([]);
-  const [respuestas, setRespuestas] = useState([]);
+  const [respuestas, setRespuestas] = useState({});
   const [mensaje, setMensaje] = useState('');
+  const [cargando, setCargando] = useState(false);
 
-  useEffect(() => {
-    // Cargar las preguntas del cuestionario al montar el componente
-    const fetchPreguntas = async () => {
-      try {
-        const response = await fetch('http://localhost:3080/cuestionarios');
-        if (!response.ok) {
-          throw new Error('Error al obtener las preguntas');
-        }
-        const data = await response.json();
-        setPreguntas(data);
-        setRespuestas(Array(data.length).fill(null)); // Inicializar respuestas
-      } catch (err) {
-        console.error('Error al obtener las preguntas:', err);
-      }
-    };
+  const preguntas = [
+    "Tener poco interés o placer en hacer las cosas.",
+    "Sentirse desanimado/a, deprimido/a o sin esperanza.",
+    "Con problemas en dormirse o en mantenerse dormido/a, o en dormir demasiado.",
+    "Sentirse cansado/a o tener poca energía.",
+    "Tener poco apetito o comer en exceso.",
+    "Sentir falta de amor propio o sentir que ha decepcionado a otros.",
+    "Tener dificultad para concentrarse en cosas tales como leer el periódico o mirar televisión."
+  ];
 
-    fetchPreguntas();
-  }, []);
-
-  const handleChange = (index, value) => {
-    const nuevasRespuestas = [...respuestas];
-    nuevasRespuestas[index] = value;
-    setRespuestas(nuevasRespuestas);
+  // Manejar cambios en las respuestas
+  const handleChange = (e, preguntaIndex) => {
+    const { value } = e.target;
+    setRespuestas((prev) => ({ ...prev, [preguntaIndex]: parseInt(value, 10) }));
   };
 
+  // Manejar el envío del formulario
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (respuestas.includes(null)) {
-      setMensaje('Por favor, responda todas las preguntas.');
-      return;
-    }
+    setCargando(true);
+    setMensaje('');
 
     try {
-      const response = await fetch('http://localhost:5000/cuestionarios/respuestas', {
+      const response = await fetch('http://localhost:5000/cuestionario', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ respuestas }),
+        body: JSON.stringify({
+          respuestas, 
+          pacienteId: 1, // Cambiar por el ID dinámico del paciente autenticado si es necesario.
+        }),
       });
 
-      if (!response.ok) {
-        throw new Error('Error al enviar el cuestionario');
+      if (response.ok) {
+        const data = await response.json();
+        setMensaje('Cuestionario enviado exitosamente.');
+      } else {
+        setMensaje('Error al enviar el cuestionario.');
       }
-
-      setMensaje('Cuestionario enviado exitosamente.');
-    } catch (err) {
-      console.error('Error al enviar el cuestionario:', err);
+    } catch (error) {
+      console.error('Error:', error);
       setMensaje('Error al enviar el cuestionario.');
+    } finally {
+      setCargando(false);
     }
   };
 
   return (
     <div>
-      <h2>Cuestionario</h2>
+      <h2>Test de Síntomas de Depresión</h2>
       <form onSubmit={handleSubmit}>
         {preguntas.map((pregunta, index) => (
           <div key={index}>
-            <p>{pregunta.pregunta}</p>
+            <p>{index + 1}. {pregunta}</p>
             {[0, 1, 2, 3].map((opcion) => (
-              <label key={opcion}>
+              <label key={opcion} style={{ marginRight: '10px' }}>
                 <input
                   type="radio"
                   name={`pregunta-${index}`}
                   value={opcion}
-                  onChange={() => handleChange(index, opcion)}
+                  onChange={(e) => handleChange(e, index)}
                   required
                 />
                 {opcion}
@@ -78,7 +74,9 @@ const Cuestionario = () => {
             ))}
           </div>
         ))}
-        <button type="submit">Enviar Cuestionario</button>
+        <button type="submit" disabled={cargando}>
+          {cargando ? 'Enviando...' : 'Enviar'}
+        </button>
       </form>
       {mensaje && <p>{mensaje}</p>}
     </div>

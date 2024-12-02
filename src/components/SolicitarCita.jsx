@@ -6,6 +6,8 @@ const Cita = () => {
     fecha: '',
     hora: '',
     motivo: '',
+    pacienteId: 1, // Cambiar por el ID dinámico del paciente
+    psicologoId: 1, // Cambiar por el ID dinámico del psicólogo
   });
 
   useEffect(() => {
@@ -45,7 +47,7 @@ const Cita = () => {
       }
 
       fetchCitas(); // Actualiza la lista de citas
-      setNuevaCita({ fecha: '', hora: '', motivo: '' }); // Reinicia el formulario
+      setNuevaCita({ fecha: '', hora: '', motivo: '', pacienteId: 1, psicologoId: 1 });
     } catch (error) {
       console.error('Error al crear la cita:', error);
     }
