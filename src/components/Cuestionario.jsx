@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const Cuestionario = () => {
   const [preguntas, setPreguntas] = useState([]);
@@ -10,9 +9,13 @@ const Cuestionario = () => {
     // Cargar las preguntas del cuestionario al montar el componente
     const fetchPreguntas = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/cuestionarios');
-        setPreguntas(response.data);
-        setRespuestas(Array(response.data.length).fill(null));
+        const response = await fetch('http://localhost:3080/cuestionarios');
+        if (!response.ok) {
+          throw new Error('Error al obtener las preguntas');
+        }
+        const data = await response.json();
+        setPreguntas(data);
+        setRespuestas(Array(data.length).fill(null)); // Inicializar respuestas
       } catch (err) {
         console.error('Error al obtener las preguntas:', err);
       }
@@ -35,9 +38,18 @@ const Cuestionario = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/cuestionarios/respuestas', {
-        respuestas,
+      const response = await fetch('http://localhost:5000/cuestionarios/respuestas', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ respuestas }),
       });
+
+      if (!response.ok) {
+        throw new Error('Error al enviar el cuestionario');
+      }
+
       setMensaje('Cuestionario enviado exitosamente.');
     } catch (err) {
       console.error('Error al enviar el cuestionario:', err);

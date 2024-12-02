@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
-const Rutina = () => {
+const Rutinas = ({ pacienteId }) => {
   const [rutinas, setRutinas] = useState([]);
-  const [nuevaRutina, setNuevaRutina] = useState({
-    descripcion: '',
-    pacienteId: '',
-  });
+  const [mensaje, setMensaje] = useState('');
 
   useEffect(() => {
     fetchRutinas();
@@ -14,53 +10,26 @@ const Rutina = () => {
 
   const fetchRutinas = async () => {
     try {
-      const response = await axios.get('/api/rutina');
-      setRutinas(response.data);
+      const response = await fetch(`/api/rutina/paciente/${pacienteId}`);
+      if (!response.ok) {
+        throw new Error('Error al obtener las rutinas');
+      }
+      const data = await response.json();
+      setRutinas(data);
     } catch (error) {
       console.error('Error al obtener las rutinas:', error);
-    }
-  };
-
-  const handleChange = (e) => {
-    setNuevaRutina({ ...nuevaRutina, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post('/api/rutina', nuevaRutina);
-      fetchRutinas();
-      setNuevaRutina({ descripcion: '', pacienteId: '' });
-    } catch (error) {
-      console.error('Error al crear la rutina:', error);
+      setMensaje('No se pudieron cargar las rutinas.');
     }
   };
 
   return (
     <div>
-      <h2>Gestión de Rutinas</h2>
-      <form onSubmit={handleSubmit}>
-        <textarea
-          name="descripcion"
-          value={nuevaRutina.descripcion}
-          placeholder="Descripción de la Rutina"
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          name="pacienteId"
-          value={nuevaRutina.pacienteId}
-          placeholder="ID del Paciente"
-          onChange={handleChange}
-        />
-        <button type="submit">Crear Rutina</button>
-      </form>
-
-      <h3>Lista de Rutinas</h3>
+      <h2>Rutinas del Paciente</h2>
+      {mensaje && <p>{mensaje}</p>}
       <ul>
         {rutinas.map((rutina) => (
           <li key={rutina.id}>
-            {rutina.descripcion} - Paciente ID: {rutina.pacienteId}
+            {rutina.descripcion} - Psicólogo: {rutina.Psicologo?.nombre} {rutina.Psicologo?.apellido}
           </li>
         ))}
       </ul>
@@ -68,4 +37,4 @@ const Rutina = () => {
   );
 };
 
-export default Rutina;
+export default Rutinas;

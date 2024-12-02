@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const Cita = () => {
   const [citas, setCitas] = useState([]);
@@ -15,8 +14,12 @@ const Cita = () => {
 
   const fetchCitas = async () => {
     try {
-      const response = await axios.get('/api/cita');
-      setCitas(response.data);
+      const response = await fetch('/api/cita'); // GET request
+      if (!response.ok) {
+        throw new Error('Error al obtener las citas');
+      }
+      const data = await response.json();
+      setCitas(data);
     } catch (error) {
       console.error('Error al obtener las citas:', error);
     }
@@ -29,9 +32,20 @@ const Cita = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/api/cita', nuevaCita);
-      fetchCitas();
-      setNuevaCita({ fecha: '', hora: '', motivo: '' });
+      const response = await fetch('/api/cita', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(nuevaCita),
+      });
+
+      if (!response.ok) {
+        throw new Error('Error al crear la cita');
+      }
+
+      fetchCitas(); // Actualiza la lista de citas
+      setNuevaCita({ fecha: '', hora: '', motivo: '' }); // Reinicia el formulario
     } catch (error) {
       console.error('Error al crear la cita:', error);
     }

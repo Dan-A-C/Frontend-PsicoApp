@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const Horario = () => {
   const [horarios, setHorarios] = useState([]);
@@ -14,8 +13,12 @@ const Horario = () => {
 
   const fetchHorarios = async () => {
     try {
-      const response = await axios.get('/api/horario');
-      setHorarios(response.data);
+      const response = await fetch('/api/horario'); // GET request
+      if (!response.ok) {
+        throw new Error('Error al obtener los horarios');
+      }
+      const data = await response.json();
+      setHorarios(data);
     } catch (error) {
       console.error('Error al obtener los horarios:', error);
     }
@@ -28,9 +31,20 @@ const Horario = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/api/horario', nuevoHorario);
-      fetchHorarios();
-      setNuevoHorario({ fecha: '', hora: '' });
+      const response = await fetch('/api/horario', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(nuevoHorario),
+      });
+
+      if (!response.ok) {
+        throw new Error('Error al crear el horario');
+      }
+
+      fetchHorarios(); // Actualiza la lista de horarios
+      setNuevoHorario({ fecha: '', hora: '' }); // Reinicia el formulario
     } catch (error) {
       console.error('Error al crear el horario:', error);
     }

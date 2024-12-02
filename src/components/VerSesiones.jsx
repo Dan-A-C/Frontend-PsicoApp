@@ -1,18 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
-const Sesion = () => {
+const Sesiones = () => {
   const [sesiones, setSesiones] = useState([]);
-  const [nuevaSesion, setNuevaSesion] = useState({
-    fecha: '',
-    hora: '',
-    psicologoId: '',
-    pacienteId: '',
-    horarioId: '',
-    reporteProgreso: '',
-    reporteEmociones: '',
-    diagnosticoId: '',
-  });
+  const [mensaje, setMensaje] = useState('');
 
   useEffect(() => {
     fetchSesiones();
@@ -20,101 +10,29 @@ const Sesion = () => {
 
   const fetchSesiones = async () => {
     try {
-      const response = await axios.get('/api/sesion');
-      setSesiones(response.data);
+      const response = await fetch('/api/sesion');
+      if (!response.ok) {
+        throw new Error('Error al obtener las sesiones');
+      }
+      const data = await response.json();
+      setSesiones(data);
     } catch (error) {
       console.error('Error al obtener las sesiones:', error);
-    }
-  };
-
-  const handleChange = (e) => {
-    setNuevaSesion({ ...nuevaSesion, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post('/api/sesion', nuevaSesion);
-      fetchSesiones();
-      setNuevaSesion({
-        fecha: '',
-        hora: '',
-        psicologoId: '',
-        pacienteId: '',
-        horarioId: '',
-        reporteProgreso: '',
-        reporteEmociones: '',
-        diagnosticoId: '',
-      });
-    } catch (error) {
-      console.error('Error al crear la sesión:', error);
+      setMensaje('No se pudieron cargar las sesiones.');
     }
   };
 
   return (
     <div>
-      <h2>Gestión de Sesiones</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="date"
-          name="fecha"
-          value={nuevaSesion.fecha}
-          onChange={handleChange}
-        />
-        <input
-          type="time"
-          name="hora"
-          value={nuevaSesion.hora}
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          name="psicologoId"
-          value={nuevaSesion.psicologoId}
-          placeholder="ID del Psicólogo"
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          name="pacienteId"
-          value={nuevaSesion.pacienteId}
-          placeholder="ID del Paciente"
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          name="horarioId"
-          value={nuevaSesion.horarioId}
-          placeholder="ID del Horario"
-          onChange={handleChange}
-        />
-        <textarea
-          name="reporteProgreso"
-          value={nuevaSesion.reporteProgreso}
-          placeholder="Reporte de Progreso"
-          onChange={handleChange}
-        />
-        <textarea
-          name="reporteEmociones"
-          value={nuevaSesion.reporteEmociones}
-          placeholder="Reporte de Emociones"
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          name="diagnosticoId"
-          value={nuevaSesion.diagnosticoId}
-          placeholder="ID del Diagnóstico"
-          onChange={handleChange}
-        />
-        <button type="submit">Crear Sesión</button>
-      </form>
-
-      <h3>Lista de Sesiones</h3>
+      <h2>Sesiones Programadas</h2>
+      {mensaje && <p>{mensaje}</p>}
       <ul>
         {sesiones.map((sesion) => (
           <li key={sesion.id}>
-            {sesion.fecha} - {sesion.hora} - Psicólogo: {sesion.psicologoId} - Paciente: {sesion.pacienteId}
+            Fecha: {sesion.fecha}, Hora: {sesion.hora}, 
+            Paciente: {sesion.Paciente?.nombre} {sesion.Paciente?.apellido}, 
+            Psicólogo: {sesion.Psicologo?.nombre} {sesion.Psicologo?.apellido}, 
+            Enlace: <a href={sesion.linkVideollamada} target="_blank" rel="noopener noreferrer">Videollamada</a>
           </li>
         ))}
       </ul>
@@ -122,4 +40,4 @@ const Sesion = () => {
   );
 };
 
-export default Sesion;
+export default Sesiones;

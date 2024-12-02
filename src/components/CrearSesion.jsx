@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 const CrearSesion = () => {
   const [sesion, setSesion] = useState({
@@ -19,11 +18,22 @@ const CrearSesion = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/sesiones', sesion);
+      const response = await fetch('/api/sesion', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(sesion),
+      });
+
+      if (!response.ok) {
+        throw new Error('Error al crear la sesión');
+      }
+
       setMensaje('Sesión creada exitosamente.');
       setSesion({ fecha: '', hora: '', pacienteId: '', psicologoId: '', linkVideollamada: '' });
-    } catch (err) {
-      console.error('Error al crear la sesión:', err);
+    } catch (error) {
+      console.error('Error al crear la sesión:', error);
       setMensaje('Error al crear la sesión.');
     }
   };
@@ -31,6 +41,7 @@ const CrearSesion = () => {
   return (
     <div>
       <h2>Crear Nueva Sesión</h2>
+      {mensaje && <p>{mensaje}</p>}
       <form onSubmit={handleSubmit}>
         <div>
           <label>Fecha:</label>
@@ -54,7 +65,6 @@ const CrearSesion = () => {
         </div>
         <button type="submit">Crear Sesión</button>
       </form>
-      {mensaje && <p>{mensaje}</p>}
     </div>
   );
 };

@@ -33,6 +33,9 @@ import Gestionarhorario from "./components/GestionarHorarios"
 import Reporte from "./components/reporte"
 import Versesiones from "./components/VerSesiones"
 import Rutina from "./components/Rutinas"
+import Crearsesion from "./components/CrearSesion"
+import CrearRutina from "./components/CrearRutinas"
+import SubirReporte from "./components/SubirReporte"
 
 function App() {
   return (
@@ -72,7 +75,10 @@ function App() {
         <Route path="/Reporte" element={ <Reporte /> } />
         <Route path="/Versesiones" element={ <Versesiones /> } />
         <Route path="/rutina" element={ <Rutina /> } />
-      
+        <Route path="/CrearSesion" element={ <Crearsesion /> } />
+        <Route path="/CrearRutina" element={ <CrearRutina /> } />
+        <Route path="/SubirReporte" element={ <SubirReporte /> } />
+
       </Routes>
     </div>
   )
